@@ -80,7 +80,7 @@ public class LimitingRectangle {
     }
 
     public static void main(String[] args) {
-        LimitingRectangle rectangle = new LimitingRectangle(new int[][]{{-10, -5}, {-5, 7}, {0, 3}, {5, 1}, {10, 0}});
+        LimitingRectangle rectangle = new LimitingRectangle(new int[][]{{-16, -5}, {-9, 7}, {0, 3}, {5, 1}, {10, 0}});
         System.out.println(rectangle.getWidth() + " " + rectangle.getHeight());
         System.out.println(rectangle.getBorders());
     }
